@@ -1,0 +1,6 @@
+<!-- res/drawable/table_layout_bg.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#16796F" /> <!-- Couleur de fond -->
+    <corners android:radius="20dp" /> <!-- Rayon des bords -->
+</shape>

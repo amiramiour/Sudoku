@@ -4,16 +4,23 @@
     android:id="@+id/linLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CADEDF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- Votre fichier de mise en page (par exemple, activity_main.xml) -->
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/table_layout_bg"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:padding="8dp"
         android:stretchColumns="*">
-
     </TableLayout>
+
 
     <TextView
         android:id="@+id/textView"
@@ -23,5 +30,15 @@
         android:textColor="#FF0000"
         android:textSize="20sp"
         android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Réinitialiser"
+        android:backgroundTint="@color/white"
+        android:textColor="#16796F"
+        android:layout_gravity="center_horizontal"
+        android:onClick="resetGrid" />
 
 </LinearLayout>

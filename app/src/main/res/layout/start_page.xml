@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image de fond -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/start_page" />
+
+    <!-- Bouton "Start" au milieu en bas -->
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp"
+        android:backgroundTint="@color/white"
+        android:text="Let's Go !"
+        android:textColor="#16796F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" /> <!-- Augmenter la marge inférieure pour déplacer le bouton plus haut -->
+
+</RelativeLayout>

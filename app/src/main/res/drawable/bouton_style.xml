@@ -1,0 +1,13 @@
+<!-- bouton_style.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- État du bouton lorsqu'il est pressé -->
+    <item android:drawable="@drawable/bouton_pressed" android:state_pressed="true" />
+
+    <!-- État du bouton lorsqu'il est activé ou sélectionné -->
+    <item android:drawable="@drawable/bouton_selected" android:state_selected="true" />
+
+    <!-- État du bouton par défaut -->
+    <item android:drawable="@drawable/bouton_normal" />
+
+</selector>

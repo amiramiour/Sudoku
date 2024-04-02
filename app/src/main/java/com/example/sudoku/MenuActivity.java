@@ -22,8 +22,8 @@ public class MenuActivity extends AppCompatActivity {
         buttonFacile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                niveau = (int)Math.random() * 2;
+                // Choisissez une grille spécifique du niveau facile
+                niveau = 1;
                 startMainActivity();
             }
         });
@@ -31,8 +31,8 @@ public class MenuActivity extends AppCompatActivity {
         buttonMoyen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                niveau = (int)Math.random() * 2 + 3;
+                // Choisissez une grille spécifique du niveau moyen
+                niveau = 2;
                 startMainActivity();
             }
         });
@@ -40,14 +40,12 @@ public class MenuActivity extends AppCompatActivity {
         buttonDifficile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                niveau = (int)Math.random() * 2 + 6;
+                // Choisissez une grille spécifique du niveau difficile
+                niveau = 3;
                 startMainActivity();
-
             }
         });
     }
-
 
     private void startMainActivity() {
         Intent intent = new Intent(this, MainActivity.class);
