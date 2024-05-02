@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sudoku">
 
     <application
         android:allowBackup="true"
@@ -12,9 +13,9 @@
         android:theme="@style/Theme.Sudoku"
         tools:targetApi="31">
 
-        <!-- Votre activité MenuActivity -->
+        <!-- Déclarer l'activité de chargement comme l'activité de démarrage -->
         <activity
-            android:name=".StartPageActivity"
+            android:name=".loadingactivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,18 +23,27 @@
             </intent-filter>
         </activity>
 
-        <!-- Votre activité MainActivity -->
+        <!-- Déclarer l'activité principale -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
         </activity>
 
-        <!-- Nouvelle activité StartPageActivity -->
+        <!-- Autres activités -->
+        <activity
+            android:name=".StartPageActivity"
+            android:exported="true">
+        </activity>
+
         <activity
             android:name=".MenuActivity"
             android:exported="true">
         </activity>
 
+        <activity
+            android:name=".PresentationActivity">
+            <!-- Ajoutez d'autres attributs si nécessaire -->
+        </activity>
 
     </application>
 

@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="button_pressed">#FFC0CB</color> <!-- Example color for pressed state -->
+    <color name="button_default">#FFA07A</color> <!-- Example color for default state -->
+    <color name="button_text_color">#000000</color> <!-- Example color for text -->
+    <color name="light_blue">#FFCADEDF</color> <!-- FF pour opacité totale -->
+
+
 </resources>

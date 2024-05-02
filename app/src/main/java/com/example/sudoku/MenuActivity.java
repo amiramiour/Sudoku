@@ -19,6 +19,7 @@ public class MenuActivity extends AppCompatActivity {
         Button buttonMoyen = findViewById(R.id.button_moyen);
         Button buttonDifficile = findViewById(R.id.button_difficile);
 
+
         buttonFacile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

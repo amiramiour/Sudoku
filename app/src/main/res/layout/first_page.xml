@@ -27,21 +27,27 @@
         android:textStyle="bold"
         android:visibility="visible" /> <!-- Augmenter la marge inférieure pour déplacer le bouton plus haut -->
 
+    <!-- Augmenter la marge inférieure pour déplacer le bouton plus haut -->
+
+    <!-- Bouton "Difficile" -->
+
     <Button
         android:id="@+id/button_moyen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_margin="340dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="340dp"
         android:backgroundTint="@color/white"
         android:text="Moyen"
         android:textColor="#16796F"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:visibility="visible" /> <!-- Augmenter la marge inférieure pour déplacer le bouton plus haut -->
+        android:visibility="visible" />
 
-    <!-- Bouton "Difficile" -->
     <Button
         android:id="@+id/button_difficile"
         android:layout_width="wrap_content"
